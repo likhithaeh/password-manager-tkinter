@@ -99,7 +99,7 @@ website_entry.grid(column = 1, row = 1)
 email_label = Label(text = "Email/Username : ",font=("Courier", 11))
 email_label.grid(column = 0, row = 2)
 email_entry = Entry(width = 70)
-email_entry.insert(0, "plutogoodday08@gmail.com")
+email_entry.insert(0, "abc@gmail.com")
 email_entry.grid(column = 1, row = 2, columnspan=2)
 
 password_label = Label(text = "Password : ", font = ("Courier", 11))
@@ -117,3 +117,4 @@ search_button = Button(text = "Search",font = ("Courier", 9),width = 15, command
 search_button.grid(column = 2, row = 1)
 
 window.mainloop()
+
